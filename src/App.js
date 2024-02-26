@@ -1,7 +1,11 @@
+import "./App.css";
+import Body from "./components/Body";
+import Head from "./components/Head";
 function App() {
   return (
-    <div className="App">
-      <h1>Learn React</h1>
+    <div>
+      <Head />
+      <Body />
     </div>
   );
 }
