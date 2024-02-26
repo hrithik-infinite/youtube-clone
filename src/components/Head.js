@@ -13,13 +13,20 @@ const Head = () => {
   return (
     <div className="flex items-center justify-between p-5 shadow-lg">
       <div className="flex items-center">
-        <MenuIcon style={{ fontSize: "2em" }} className="cursor-pointer" onClick={() => toggleMenuHandler()} />
+        <MenuIcon
+          style={{ fontSize: "2em" }}
+          className="cursor-pointer"
+          onClick={() => toggleMenuHandler()}
+        />
         <a href="/">
           <img className="h-8 mx-3" alt="youtube-logo" src={logo} />
         </a>
       </div>
       <div className="flex items-center w-1/2">
-        <input className="w-full h-full px-4 py-2 rounded-l-full border border-gray-400" type="text" />
+        <input
+          className="w-full h-full px-4 py-2 rounded-l-full border border-gray-400"
+          type="text"
+        />
         <button className="px-4 py-2 h-full bg-gray-200  rounded-r-full">
           <SearchIcon />
         </button>
